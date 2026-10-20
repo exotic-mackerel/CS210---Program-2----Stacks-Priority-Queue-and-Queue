@@ -1,0 +1,20 @@
+[
+{
+  "directory": "C:/Users/rando/Documents/CS Projects/2ND YEAR -- CS210/Program 2/cmake-build-debug",
+  "command": "C:\\Users\\rando\\DOCUME~1\\CSPROJ~1\\2NDYEA~1\\CLION2~1.1\\bin\\mingw\\bin\\C__~1.EXE -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\Program_2.dir\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Program_2.dir\\main.cpp.obj -c \"C:\\Users\\rando\\Documents\\CS Projects\\2ND YEAR -- CS210\\Program 2\\main.cpp\"",
+  "file": "C:/Users/rando/Documents/CS Projects/2ND YEAR -- CS210/Program 2/main.cpp",
+  "output": "C:/Users/rando/Documents/CS Projects/2ND YEAR -- CS210/Program 2/cmake-build-debug/CMakeFiles/Program_2.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/rando/Documents/CS Projects/2ND YEAR -- CS210/Program 2/cmake-build-debug",
+  "command": "C:\\Users\\rando\\DOCUME~1\\CSPROJ~1\\2NDYEA~1\\CLION2~1.1\\bin\\mingw\\bin\\C__~1.EXE -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\Program_2.dir\\p2.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Program_2.dir\\p2.cpp.obj -c \"C:\\Users\\rando\\Documents\\CS Projects\\2ND YEAR -- CS210\\Program 2\\p2.cpp\"",
+  "file": "C:/Users/rando/Documents/CS Projects/2ND YEAR -- CS210/Program 2/p2.cpp",
+  "output": "C:/Users/rando/Documents/CS Projects/2ND YEAR -- CS210/Program 2/cmake-build-debug/CMakeFiles/Program_2.dir/p2.cpp.obj"
+},
+{
+  "directory": "C:/Users/rando/Documents/CS Projects/2ND YEAR -- CS210/Program 2/cmake-build-debug",
+  "command": "C:\\Users\\rando\\DOCUME~1\\CSPROJ~1\\2NDYEA~1\\CLION2~1.1\\bin\\mingw\\bin\\C__~1.EXE -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\Program_2.dir\\loadbalancer.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\Program_2.dir\\loadbalancer.cpp.obj -c \"C:\\Users\\rando\\Documents\\CS Projects\\2ND YEAR -- CS210\\Program 2\\loadbalancer.cpp\"",
+  "file": "C:/Users/rando/Documents/CS Projects/2ND YEAR -- CS210/Program 2/loadbalancer.cpp",
+  "output": "C:/Users/rando/Documents/CS Projects/2ND YEAR -- CS210/Program 2/cmake-build-debug/CMakeFiles/Program_2.dir/loadbalancer.cpp.obj"
+}
+]
