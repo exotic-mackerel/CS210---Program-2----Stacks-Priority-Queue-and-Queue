@@ -29,25 +29,25 @@ request createRandomRequest()
 int main()
 {
    // random number generator
-
+   srand(time(0));
 
    // create a loadbalancer
-
+   loadbalancer lb;
    
    // start off with a "full" queue
    for (int i = 0; i < 10; i++)
    {
- 
- 
+      request r = createRandomRequest();
+      lb.addRequest(r);
    }
    
    // an array of webservers, each given an initial request to process
    webserver webarray[NUM_SERVERS];
    for (int i = 0; i < NUM_SERVERS; i++)
    {
-
-
-
+      webserver w(( char) (i + 65));
+      webarray[i] = w;
+      webarray[i].addRequest(lb.getRequest(), lb.getTime());
 
    }
    // loop
@@ -67,17 +67,15 @@ int main()
          cout << endl;
 		 
          // then give it a new request
-         
+         webarray[currTime % NUM_SERVERS].addRequest(lb.getRequest(), currTime);
       }
       // every random set of time, or get a new request
-
-
-
-
-
-
-
+      if (rand() % 10 == 0)
+      {
+         request r = (createRandomRequest());
+         lb.addRequest(r);
+      }
+      lb.incTime();
    }
-
 }
 
