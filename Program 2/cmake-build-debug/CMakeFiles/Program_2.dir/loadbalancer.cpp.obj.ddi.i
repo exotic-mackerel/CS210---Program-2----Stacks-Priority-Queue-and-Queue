@@ -39995,8 +39995,8 @@ class loadbalancer
       int systemTime;
 
 
-      priority_queue<request, vector<request>, MinProcessTime> requestQueue;
 
+      priority_queue<request, vector<request>, MaxPID> requestQueue;
 
 };
 # 7 "C:/Users/rando/Documents/CS Projects/2ND YEAR -- CS210/Program 2/loadbalancer.cpp" 2
