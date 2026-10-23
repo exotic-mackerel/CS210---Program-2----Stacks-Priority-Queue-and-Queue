@@ -40030,10 +40030,10 @@ class loadbalancer
    private:
       int systemTime;
 
+      priority_queue<request, vector<request>, MaxProcessTime> requestQueue;
 
 
 
-      stack<request> requestQueue;
 };
 # 4 "C:/Users/rando/Documents/CS Projects/2ND YEAR -- CS210/Program 2/p3.cpp" 2
 
