@@ -1,0 +1,5 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/Program_2.dir/p3.cpp.obj: dyndep
+
+build CMakeFiles/Program_2.dir/loadbalancer.cpp.obj: dyndep
+

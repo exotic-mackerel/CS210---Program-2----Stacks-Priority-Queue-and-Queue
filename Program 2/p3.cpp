@@ -59,7 +59,7 @@ int main()
       if(webarray[currTime % NUM_SERVERS].isRequestDone(currTime))
       {
          // get request from the server
-		 
+		   request r = webarray[currTime % NUM_SERVERS].getRequest();
 		 // print some stats
          cout << "Finished at " << currTime << " " << webarray[currTime % NUM_SERVERS].getName();
          cout << " pid " << r.pid <<"/" << size << " process time was " << r.processTime ;
