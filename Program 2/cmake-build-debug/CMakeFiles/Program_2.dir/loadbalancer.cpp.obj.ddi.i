@@ -39994,8 +39994,8 @@ class loadbalancer
    private:
       int systemTime;
 
-      priority_queue<request, vector<request>, MaxProcessTime> requestQueue;
 
+      priority_queue<request, vector<request>, MinProcessTime> requestQueue;
 
 
 };
