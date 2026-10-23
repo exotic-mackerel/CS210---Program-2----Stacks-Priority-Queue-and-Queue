@@ -40029,11 +40029,11 @@ class loadbalancer
       int getSize();
    private:
       int systemTime;
-      queue<request> requestQueue;
 
 
 
 
+      stack<request> requestQueue;
 };
 # 4 "C:/Users/rando/Documents/CS Projects/2ND YEAR -- CS210/Program 2/p3.cpp" 2
 

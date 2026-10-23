@@ -39993,11 +39993,11 @@ class loadbalancer
       int getSize();
    private:
       int systemTime;
-      queue<request> requestQueue;
 
 
 
 
+      stack<request> requestQueue;
 };
 # 7 "C:/Users/rando/Documents/CS Projects/2ND YEAR -- CS210/Program 2/loadbalancer.cpp" 2
 
@@ -40022,8 +40022,8 @@ request loadbalancer::getRequest()
    incTime();
    if (!requestQueue.empty())
    {
-      request r = requestQueue.front();
 
+      request r = requestQueue.top();
       requestQueue.pop();
       return r;
    }
